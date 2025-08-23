@@ -21,20 +21,16 @@ const NavBar = () => {
       path: "/",
     },
     {
-      label: "Shop",
-      path: "/shop",
-    },
-    {
-      label: "Blog",
-      path: "/blog",
-    },
-    {
-      label: "Contact",
-      path: "/contact",
+      label: "Book Parcel",
+      path: "/book-parcel",
     },
     {
       label: "About",
       path: "/about",
+    },
+    {
+      label: "Contact",
+      path: "/contact",
     },
   ];
 
@@ -60,12 +56,12 @@ const NavBar = () => {
       ) : (
         <div className="flex max-md:flex-col gap-2">
           <Link href="/register">
-            <Button size="sm" className="w-full">
+            <Button size="md" className="w-full">
               Register
             </Button>
           </Link>
           <Link href={"/login"}>
-            <Button size="sm" className="w-full" variant="outline">
+            <Button size="md" className="w-full" variant="outline">
               Login
             </Button>
           </Link>
@@ -81,7 +77,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="mb-16 lg:mb-20">
+    <div className="mb-16">
       <Navbar
         className="max-w-[1920px] mx-auto sm:px-[1.5%]"
         position="fixed"
