@@ -36,8 +36,8 @@ export default function HomePage() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-primary">1</span>
+              <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-white">1</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Book</h3>
               <p className="text-gray-600">
@@ -45,8 +45,8 @@ export default function HomePage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-primary">2</span>
+              <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-white">2</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Assign</h3>
               <p className="text-gray-600">
@@ -54,8 +54,8 @@ export default function HomePage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="bg-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <span className="text-2xl font-bold text-primary">3</span>
+              <div className="bg-secondary w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl font-bold text-white">3</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Deliver</h3>
               <p className="text-gray-600">
