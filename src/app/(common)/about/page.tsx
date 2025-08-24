@@ -11,7 +11,7 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               About FastParcel
             </h1>
-            <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               Revolutionizing parcel delivery with technology, reliability, and
               exceptional customer service
             </p>
@@ -63,7 +63,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white p-8 rounded-lg shadow-sm">
-              <div className="bg-blue-100 w-16 h-16 rounded-lg flex items-center justify-center mb-6">
+              <div className="bg-white w-16 h-16 rounded-lg flex items-center justify-center mb-6">
                 <span className="text-3xl">🎯</span>
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -106,7 +106,7 @@ export default function AboutPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="bg-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6">
                 <span className="text-3xl">⚡</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Speed</h3>
@@ -219,7 +219,7 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold mb-4">
             Ready to Experience FastParcel?
           </h2>
-          <p className="text-xl text-blue-100 mb-8">
+          <p className="text-xl text-white mb-8">
             Join thousands of satisfied customers today
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
