@@ -4,53 +4,6 @@ import Link from "next/link";
 export default function AboutPage() {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <div className="flex items-center">
-              <Link href="/" className="text-2xl font-bold text-primary">
-                FastParcel
-              </Link>
-            </div>
-            <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <Link
-                  href="/"
-                  className="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Home
-                </Link>
-                <Link
-                  href="/track"
-                  className="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Track Parcel
-                </Link>
-                <Link
-                  href="/about"
-                  className="text-gray-900 hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  About Us
-                </Link>
-                <Link
-                  href="/contact"
-                  className="text-gray-500 hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
-                >
-                  Contact
-                </Link>
-                <Link
-                  href="/login"
-                  className="bg-primary text-white hover:bg-primary-hover px-4 py-2 rounded-md text-sm font-medium"
-                >
-                  Login
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </nav>
-
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary to-secondary text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -285,58 +238,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <h3 className="text-xl font-bold mb-4">FastParcel</h3>
-              <p className="text-gray-300">Your trusted delivery partner</p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Services</h4>
-              <ul className="space-y-2 text-gray-300">
-                <li>Same Day Delivery</li>
-                <li>Express Shipping</li>
-                <li>COD Service</li>
-                <li>Bulk Orders</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Company</h4>
-              <ul className="space-y-2 text-gray-300">
-                <li>
-                  <Link href="/about" className="hover:text-white">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/contact" className="hover:text-white">
-                    Contact
-                  </Link>
-                </li>
-                <li>Careers</li>
-                <li>Privacy Policy</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Language</h4>
-              <div className="flex space-x-2">
-                <button className="bg-primary px-3 py-1 rounded text-sm">
-                  EN
-                </button>
-                <button className="bg-gray-600 px-3 py-1 rounded text-sm">
-                  BN
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
-            <p>&copy; 2024 FastParcel. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
