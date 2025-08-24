@@ -55,12 +55,12 @@ const NavBar = () => {
         </DropdownMenu>
       ) : (
         <div className="flex max-md:flex-col gap-2">
-          <Link href="/register">
+          <Link href="/auth/register">
             <Button size="md" className="w-full">
               Register
             </Button>
           </Link>
-          <Link href={"/login"}>
+          <Link href={"/auth/login"}>
             <Button size="md" className="w-full" variant="outline">
               Login
             </Button>
